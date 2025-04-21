@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e5e9f0);
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    color: #4a3f8c;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 30px 0 20px;
+  }
+  
+  /* Main Container */
+  .main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Task Input Container */
+  .tak-conatiner {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Field */
+  .tak-conatiner input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #d3d3f1;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .tak-conatiner input[type="text"]:focus {
+    border-color: #8a6fd1;
+  }
+  
+  /* Add Task Button */
+  .tak-conatiner button {
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tak-conatiner button:hover {
+    background-color: #5946c2;
+  }
+  
+  /* Task List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Task Item */
+  li {
+    background-color: #f6f8fc;
+    border: 1px solid #dfe4ea;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.01);
+  }
+  
+  /* Remove Button */
+  li button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li button:hover {
+    background-color: #e55050;
+  }
+  

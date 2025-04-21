@@ -1,0 +1,15 @@
+<h1>TaskBoard</h1>
+
+<div class="main-container">
+<div class="tak-conatiner">
+<input type="text" placeholder="Add New Task" #task>
+<button (click)="addTask(task.value); task.value=''">Add Task</button>
+</div>
+
+<ul>
+  <li *ngFor="let item of list">
+    {{item.name}}
+    <button (click)="removeTask(item.id)">Remove</button>
+  </li>
+</ul>
+</div>
